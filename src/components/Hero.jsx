@@ -5,7 +5,7 @@ import curve from '../assets/pattern-curved-line-2.svg'
 const Hero = () => {
   return (
     <div>
-      <div className='min-h-screen mt-32 flex flex-col lg:flex-row items-center justify-center text-white text-center lg:text-left md:min-h-[80vh] md:mx-16  bg-dark-blue rounded-card'>
+      <div className='min-h-screen mt-36 flex flex-col lg:flex-row items-center justify-center text-white text-center lg:text-left md:min-h-[80vh] md:mx-16  bg-dark-blue rounded-card'>
           <div className='flex-1 flex flex-col lg:flex-row items-center lg:gap-3 justify-center'>
              <img className=' md:hidden relative bottom-32  ' src={jeremymobile} alt="" />
              <img className=' hidden relative md:flex bottom-32 md:bottom-2 w-[65%]  ' src={jeremytablet} alt="" />
